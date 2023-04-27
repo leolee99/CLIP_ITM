@@ -198,4 +198,5 @@ python main.py --eval --resume ${MODELPATH} --vision_model ${VISONMODEL}
 
 ## Planning
 
-Providing the training and evaluation codes on Flickr30K.
+* Mixed precision training
+* Providing the training and evaluation codes on Flickr30K.
