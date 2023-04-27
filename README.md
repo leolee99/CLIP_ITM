@@ -194,6 +194,7 @@ python main.py --eval --resume ${MODELPATH} --vision_model ${VISONMODEL}
         <td>78.66</td>
         <td>86.66</td>
     </tr>
+</table>
 
 ## Planning
 
