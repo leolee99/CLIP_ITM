@@ -2,7 +2,7 @@
 
 A simple pytorch implementation of baseline based-on [**CLIP**](https://arxiv.org/abs/2103.00020) for Image-text Retrieval.
 
-This project provides a CLIP-based training and evaluation framework for image-text retrieval on MS-COCO dataset.
+This project provides a CLIP-based training and evaluation framework for image-text retrieval on commonly used MS-COCO dataset.
 
 
 ## Requirements
@@ -50,7 +50,7 @@ python main.py --batch_size 256 --epochs 10 --lr 1e-5 --warmup 500 --vision_mode
 
 **ViT-B/16:**
 ```bash
-python main.py --batch_size 256 --epochs 5 --lr 1e-5 --warmup 500 --vision_model ViT-B/16
+python main.py --batch_size 128 --epochs 5 --lr 1e-5 --warmup 500 --vision_model ViT-B/16
 ```
 
 ## Evaluation
@@ -160,7 +160,7 @@ python main.py --eval --resume ${MODELPATH} --vision_model ${VISONMODEL}
     </tr>
 </table>
 
-## Fine-tuned Results on MS-COCO
+## Fine-tuned Results on MS-COCO 5K
 <table>
     <tr>
         <td></td>
@@ -187,10 +187,14 @@ python main.py --eval --resume ${MODELPATH} --vision_model ${VISONMODEL}
     </tr>
     <tr>
         <td>ViT-16/B</td>
-        <td>68.62</td>
-        <td>88.98</td>
-        <td>94.16</td>
-        <td>52.35</td>
-        <td>78.43</td>
-        <td>86.64</td>
+        <td>68.76</td>
+        <td>88.66</td>
+        <td>93.94</td>
+        <td>52.45</td>
+        <td>78.66</td>
+        <td>86.66</td>
     </tr>
+
+## Planning
+
+Providing the training and evaluation codes on Flickr30K.
