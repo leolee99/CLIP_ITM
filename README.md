@@ -45,7 +45,7 @@ You can finetune the model by running:
 
 **ViT-B/32:**
 ```bash
-python main.py --batch_size 256 --epochs 10 --lr 1e-5 --warmup 500 --vision_model ViT-B/32 --dataset_root ${DATAPATH}
+python main.py --batch_size 256 --epochs 5 --lr 1e-5 --warmup 500 --vision_model ViT-B/32 --dataset_root ${DATAPATH}
 ```
 
 **ViT-B/16:**
