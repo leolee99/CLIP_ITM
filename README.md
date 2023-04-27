@@ -2,7 +2,7 @@
 
 A simple pytorch implementation of baseline based-on [**CLIP**](https://arxiv.org/abs/2103.00020) for Image-text Retrieval.
 
-This project provides a CLIP-based training and evaluation framework for image-text retrieval on commonly used MS-COCO dataset.
+This project provides a CLIP-based training and evaluation framework for image-text retrieval on MS-COCO dataset.
 
 
 ## Requirements
