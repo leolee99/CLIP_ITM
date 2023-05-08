@@ -1,5 +1,7 @@
 """
 # A simple pytorch implementation of baseline based-on CLIP for Image-text Retrieval.
+# 
+# https://github.com/leolee99/CLIP_ITM
 #
 # Writen by Hao Li, 2023
 """

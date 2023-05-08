@@ -1,8 +1,8 @@
-# CLIP for Image-text Retrieval
+# CLIP for Image-text Matching
 
-A simple pytorch implementation of baseline based-on [**CLIP**](https://arxiv.org/abs/2103.00020) for Image-text Retrieval.
+A simple pytorch implementation of baseline based-on [**CLIP**](https://arxiv.org/abs/2103.00020) for Image-text Matching.
 
-This project provides a CLIP-based training and evaluation framework for image-text retrieval on MS-COCO dataset.
+This [**project**](https://github.com/leolee99/CLIP_ITM) provides a CLIP-based training and evaluation framework for image-text matching on MS-COCO dataset.
 
 
 ## Requirements
