@@ -84,11 +84,13 @@ def prepare_coco_dataloaders(args,
 
     dataloaders = {}
 
-    dataloaders['train'] = None, None
-    dataloaders['train'] = dataloader_mscoco_train(
-        args, image_root, train_ann, preprocess, 
-        train_ids, 'train', logger,
-    )
+    if args.eval:
+        dataloaders['train'] = None, None
+    else:
+        dataloaders['train'] = dataloader_mscoco_train(
+            args, image_root, train_ann, preprocess, 
+            train_ids, 'train', logger,
+        )
 
     # dataloaders['val'] = dataloader_mscoco_val(
     #     image_root, val_ann, val_ids, vocab,
