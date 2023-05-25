@@ -21,8 +21,10 @@ pip install requirments.txt
 
 ### COCO Caption
 
-We follow the same split provided by [VSE++](http://www.cs.toronto.edu/~faghri/vsepp/data.tar).
-Dataset splits can be found in [datasets/annotations](datasets/annotations).
+We follow the same split provided by [VSE++](https://arxiv.org/pdf/1707.05612.pdf).
+
+Dataset images can be found [here](http://www.cs.toronto.edu/~faghri/vsepp/data.tar) or [here](https://cocodataset.org/#download).
+Dataset splits and annotations can be found [here](https://drive.google.com/file/d/1JmgzPjW2sagPa6TbWfrNXlO1L4G9ZbQs/view?usp=share_link).
 
 The final data directory tree should be:
 ```
